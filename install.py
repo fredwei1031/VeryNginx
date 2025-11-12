@@ -75,7 +75,7 @@ def install_verynginx():
         print( 'openresty not fount, so not copy nginx.conf' )
 
     #set mask for the path which used for save configs
-    exec_sys_cmd( 'chmod -R 777 /opt/verynginx/verynginx/configs' )
+    #exec_sys_cmd( 'chmod -R 777 /opt/verynginx/verynginx/configs' )
 
 
 def update_verynginx():
